@@ -30,6 +30,8 @@ public class ForumController {
         // 投稿データオブジェクトを保管
         mav.addObject("contents", contentData);
         return mav;
+
+
     }
     /*
      * 新規投稿画面表示
